@@ -1,0 +1,31 @@
+{
+  "name": "master",
+  "version": "1.0.0",
+  "description": "interface api",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server PORT=2000",
+    "dev":"nodemon server",
+    "prop":"nodemon prop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/978744151/NODE-API-DEMO.git"
+  },
+  "keywords": [
+    "suqichentao1"
+  ],
+  "author": "tao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/978744151/NODE-API-DEMO/issues"
+  },
+  "homepage": "https://github.com/978744151/NODE-API-DEMO#readme",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
